@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     unzip \
     perl \
+    make \
     && rm -rf /var/lib/apt/lists/*
 
 # Instala cargo-leptos e wasm target

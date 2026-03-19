@@ -44,6 +44,7 @@ COPY --from=builder /app/target/site ./target/site
 
 ENV LEPTOS_SITE_ROOT=/app/target/site
 ENV RUST_LOG=info
+ENV LEPTOS_SITE_ADDR="0.0.0.0:3000"
 
 EXPOSE 3000
 

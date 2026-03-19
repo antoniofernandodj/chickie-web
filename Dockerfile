@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     curl \
     unzip \
+    perl \
     && rm -rf /var/lib/apt/lists/*
 
 # Instala cargo-leptos e wasm target
